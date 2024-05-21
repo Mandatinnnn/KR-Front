@@ -1,0 +1,13 @@
+body {
+    background-color: #181818;
+    font-family: 'Georgia', serif;
+    padding: 0;
+    margin: 0;
+}
+
+.title h1 {
+    font-size: 40px;
+    color: white;
+    font-family: 'Georgia', serif;
+    text-align: center;
+}

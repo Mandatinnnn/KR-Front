@@ -1,0 +1,7 @@
+.animated-text {
+    display: inline-block;
+}
+
+.animated-text span {
+    padding: 2px;
+}

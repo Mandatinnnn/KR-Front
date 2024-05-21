@@ -1,0 +1,65 @@
+.author-controller {
+    margin-bottom: 40px;
+    margin-top: 20px;
+}
+
+.author-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    width: 100%;
+}
+
+.author-card {
+    display: flex;
+    background-color: #202020;
+    height: 400px;
+    width: 700px;
+    justify-content: center;
+    align-items: center;
+    animation: fadeIn 2s ease;
+    color: white;
+    gap: 40px;
+    border-radius: 30px;
+}
+
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+.author-image img {
+    height: 300px;
+    border: 10px solid black;
+    box-shadow:  6px 6px 10px #0d0d0d,
+                -6px -6px 10px #333333;
+}
+
+.author-details {
+    font-size: 20px;
+    font-style: oblique;
+}
+
+.author-link {
+    text-decoration: none;
+    color: inherit;
+    font-size: 14px;
+    font-family: 'Georgia', serif;
+    font-style: oblique;
+    padding: 15px;
+    width: 150px;
+    height: 50px;
+    background-color:  #202020;
+    border: none;
+    border-radius: 32px;
+    color: white;
+    background: #202020;
+    box-shadow:  6px 6px 10px #0d0d0d,
+                -6px -6px 10px #333333;
+}
+
+.author-link:hover {
+    box-shadow: inset 6px 6px 10px #0d0d0d,
+            inset -6px -6px 10px #333333;
+}

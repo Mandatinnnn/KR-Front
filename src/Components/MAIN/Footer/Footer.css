@@ -1,0 +1,70 @@
+.footer {
+    bottom: 0;
+    background-color: #202020;
+    padding: 50px;
+}
+
+.footer-content {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.footer-image img {
+    width: 200px;
+    height: auto;
+    border: 10px solid black;
+    box-shadow:  6px 6px 10px #0d0d0d,
+                -6px -6px 10px #333333;
+}
+
+.footer-info {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 100%;
+}
+
+.footer-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.footer-text p {
+    font-family: 'Dancing Script', cursive;
+    font-size: 26px;
+    color: white;
+    margin: 5px;
+}
+
+.footer-text strong {
+    font-size: 34px;
+}
+
+.social-buttons {
+    display: flex;
+    gap: 20px;
+    align-self: center;
+}
+
+.social-button {
+    font-size: 20px;
+    font-family: 'Dancing Script', cursive;
+    padding: 10px;
+    width: 150px;
+    height: 60px;
+    background-color:  #202020;
+    border: none;
+    border-radius: 32px;
+    color: white;
+    background: #202020;
+    box-shadow:  6px 6px 10px #0d0d0d,
+                -6px -6px 10px #333333;
+}
+
+.social-button:hover {
+    box-shadow: inset 6px 6px 10px #0d0d0d,
+                inset -6px -6px 10px #333333;
+}
+

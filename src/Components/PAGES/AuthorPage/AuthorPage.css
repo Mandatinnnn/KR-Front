@@ -1,0 +1,35 @@
+.author {
+    padding: 0;
+    margin: 0;
+}
+
+.author-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.author-info h2 {
+    text-align: center;
+    color: white;
+    font-size: 30px;
+}
+
+.author-bio {
+    display: flex;
+    margin: 0px 40px;
+    gap: 30px;
+    background-color: #333;
+    padding: 30px;
+    border-radius: 30px;
+}
+
+.author-bio img {
+    width: 300px;
+}
+
+.author-bio p {
+    color: white;
+    font-size: 20px;
+    width: 100%;
+    align-self: center;
+}

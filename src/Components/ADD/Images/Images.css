@@ -1,0 +1,48 @@
+.image-list {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    z-index: -3;
+    top: 100px;
+}
+
+.image-container {
+    position: relative;
+    display: inline-block;
+    margin-bottom: -150px;
+    animation: fadeIn 3s ease;
+    left: -30px;
+}
+
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+.landscape {
+    width: 70%;
+    align-self: flex-start;
+}
+
+.portrait {
+    width: 30%;
+    align-self: flex-end;
+}
+
+.image {
+    display: block;
+    width: 100%;
+    height: auto;
+    border: 15px solid black;
+}
+
+.author-name {
+    position: absolute;
+    bottom: 50px;
+    right: 30px;
+    color: white;
+    padding: 5px;
+    font-family: 'Dancing Script', cursive;
+    font-size: 25px;
+}
+  

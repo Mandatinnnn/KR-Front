@@ -1,0 +1,69 @@
+.phrase-controller {
+    margin-bottom: 40px;
+}
+
+.phrase-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.phrase {
+    margin: 20px;
+    padding: 10px;
+    width: 700px;
+    min-height: 30px;
+    text-align: center;
+    animation: fadeIn 2s ease;
+}
+
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+.even-phrase {
+    background-color: rgba(0, 0, 0, 0.9);;
+    color: #fff;
+    align-self: flex-start;
+}
+
+.odd-phrase {
+    background-color: rgba(255, 255, 255, 0.9);;
+    color: #000;
+    align-self: flex-end;
+}
+
+.phrase p {
+    margin: 20px;
+}
+
+#text {
+    font-size: 20px;
+    font-style: oblique;
+}
+
+#author {
+    font-style: italic;
+    text-align: right;
+}
+
+.button-panel {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+.button-panel p {
+    font-size: 30px;
+    color: white;
+}
+
+.button-panel button {
+    background-color: transparent;
+    color: white;
+    border: none;
+    font-size: 24px;
+}
+  
